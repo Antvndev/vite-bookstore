@@ -11,10 +11,7 @@ function App() {
   return (<div className="bg-background" >
      {/* Start of code */}
      <Navbar />
-      {/* <Button>base</Button>
-      <Button variant='primary'>primary</Button>
-      <Button variant='secondary'>secondary</Button>
-      <Button variant='accent'>accent</Button> */}
+      
     {/* End of code */}
   </div>)
 }

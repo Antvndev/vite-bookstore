@@ -11,7 +11,6 @@ export default function Button({
       secondary: "bg-secondary/40 text-text ",
       accent: "bg-accent text-text hover ",
   };
-
   return (
     <button
       {...props}
