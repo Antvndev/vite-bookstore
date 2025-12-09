@@ -26,7 +26,7 @@ export default function Navbar() {
                 </Button>
             </div>
         </div>
-
+ 
         {/* Bottom row: nav links */}
         <div className="flex justify-start gap-4 mt-2">
             <Button>

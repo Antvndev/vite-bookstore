@@ -38,7 +38,6 @@ export default function StorePerks() {
           <h3 className="text-xl font-bold text-text">24/7 Support</h3>
           <p className="text-text/70 text-m">We are here anytime</p>
         </div>
-
       </div>
     </section>
   );

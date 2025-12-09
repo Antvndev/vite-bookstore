@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.jsx';
 import Button from './components/Button.jsx';
 import Hero from './components/Hero.jsx'
 import StorePerks from './components/StorePerks.jsx';
-
+ 
 function App() {
   const [count, setCount] = useState(0)
 
