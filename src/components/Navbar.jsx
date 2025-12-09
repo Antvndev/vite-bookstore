@@ -1,7 +1,8 @@
 import Button from "./Button";
 export default function Navbar() {
   return (
-    <nav className="w-full p-4 shadow-sm flex flex-col gap-2 border-b-2 border-b-accent">
+    <section className="w-full border-b-2 border-b-accent shadow-sm" >
+    <nav className="max-w-7xl mx-auto w-full p-2 flex flex-col gap-2 ">
         {/* Top row: logo + account/cart */}
         <div className="flex justify-between items-center w-full">
             {/* Logo */}
@@ -46,5 +47,6 @@ export default function Navbar() {
             </Button>
         </div>
         </nav>
+        </section>
   );
 }

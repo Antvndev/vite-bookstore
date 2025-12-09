@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function Hero() {
   return (
     <section className="w-full py-20 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         {/* LEFT SIDE — TEXT */}
         <div className="space-y-6">
