@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar.jsx';
 import Button from './components/Button.jsx';
+import Hero from './components/Hero.jsx'
+import StorePerks from './components/StorePerks.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (<div className="bg-background" >
      {/* Start of code */}
-     <Navbar />
-      
+      <Navbar />
+      <Hero />
+      <StorePerks />
     {/* End of code */}
   </div>)
 }
