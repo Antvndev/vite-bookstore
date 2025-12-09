@@ -6,7 +6,8 @@ import Navbar from './components/Navbar.jsx';
 import Button from './components/Button.jsx';
 import Hero from './components/Hero.jsx'
 import StorePerks from './components/StorePerks.jsx';
- 
+import FeaturedBooks from './components/FeaturedBooks.jsx'; 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Hero />
       <StorePerks />
+      <FeaturedBooks />
     {/* End of code */}
   </div>)
 }
