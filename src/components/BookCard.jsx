@@ -1,7 +1,6 @@
 export default function BookCard({ book }) {
   return (
     <div className="bg-background border border-text/10 rounded-lg p-3 shadow-sm hover:shadow-md transition hover:-translate-y-1 w-full max-w-[220px] mx-auto">
-      
       <div className="w-full h-64 overflow-hidden rounded-md">
         <img
           src={book.cover}
@@ -18,9 +17,7 @@ export default function BookCard({ book }) {
 
       <div className="text-primary text-s">
         {"★".repeat(book.rating)}
-        <span className="text-text/30">
-          {"★".repeat(5 - book.rating)}
-        </span>
+        <span className="text-text/30">{"★".repeat(5 - book.rating)}</span>
       </div>
     </div>
   );
