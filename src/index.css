@@ -1,27 +1,34 @@
 @import "tailwindcss";
 @theme {
-    --breakpoint-*: initial;
-    --breakpoint-sm: 480px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 976px;
-    
-    --color-text: hsl(156, 13%, 8%);
-    --color-background: hsl(160, 20%, 97%);
-    --color-primary: hsl(153, 33%, 51%);
-    --color-secondary: hsl(153, 44%, 74%);
-    --color-accent: hsl(153, 53%, 62%);
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
 
-    --font-heading: "Noto Sans Lepcha", sans-serif;
-    --font-body: "Noto Sans Lepcha", sans-serif;
+  --color-text: hsl(156, 13%, 8%);
+  --color-background: hsl(160, 20%, 97%);
+  --color-primary: hsl(153, 33%, 51%);
+  --color-secondary: hsl(153, 44%, 74%);
+  --color-accent: hsl(153, 53%, 62%);
 
-    --text-sm: 0.600rem;
-    --text-base: 0.8rem;
-    --text-xl: 1.066rem;
-    --text-2xl: 1.421rem;
-    --text-3xl: 1.894rem;
-    --text-4xl: 2.525rem;
-    --text-5xl: 3.366rem;
+  --font-heading: "Noto Sans Lepcha", sans-serif;
+  --font-body: "Noto Sans Lepcha", sans-serif;
 
-    --font-weight-normal: 400;
-    --font-weight-bold: 700;
-} 
+  --text-sm: 0.6rem;
+  --text-base: 0.8rem;
+  --text-xl: 1.066rem;
+  --text-2xl: 1.421rem;
+  --text-3xl: 1.894rem;
+  --text-4xl: 2.525rem;
+  --text-5xl: 3.366rem;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
