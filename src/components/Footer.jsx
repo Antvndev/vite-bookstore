@@ -3,30 +3,16 @@ export default function Footer() {
     <footer className="bg-background text-text px-4 py-10 font-body">
 
       {/* TOP SECTION */}
-      <div className="mb-10 text-left">
+      <div className=" max-w-7xl mx-auto text-left">
         <h2 className="font-heading text-2xl font-bold text-primary">
           Bookstore
         </h2>
         <div className="flex gap-4 mt-3 flex-wrap text-base">
 
           {/** PHONE */}
-          <a
-            href="/careers"
-            className="
-      group relative px-4 py-1.5 rounded-full overflow-hidden
-      border border-secondary/50 bg-secondary/20
-      text-text font-medium
-      transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]
-    "
-          >
-            <span
-              className="
-        absolute inset-0 bg-secondary
-        translate-x-[-100%]
-        group-hover:translate-x-0
-        transition-transform duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]
-      "
-            ></span>
+          <a href="/careers" className="group relative px-4 py-1.5 rounded-full overflow-hidden border border-secondary/50 bg-secondary/20 text-text font-medium transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]">
+            <span className="absolute inset-0 bg-secondary translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]">
+            </span>
 
             <span className="relative z-10">
               012345678
@@ -34,23 +20,9 @@ export default function Footer() {
           </a>
 
           {/** SHOP */}
-          <a
-            href="/shop"
-            className="
-      group relative px-4 py-1.5 rounded-full overflow-hidden
-      border border-secondary/50 bg-secondary/20
-      text-text font-medium
-      transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]
-    "
-          >
-            <span
-              className="
-        absolute inset-0 bg-secondary
-        translate-x-[-100%]
-        group-hover:translate-x-0
-        transition-transform duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]
-      "
-            ></span>
+          <a href="/shop" className=" group relative px-4 py-1.5 rounded-full overflow-hidden border border-secondary/50 bg-secondary/20 text-text font-medium transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]">
+            <span className=" absolute inset-0 bg-secondary translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]">
+            </span>
 
             <span className="relative z-10">
               Shop
@@ -58,23 +30,8 @@ export default function Footer() {
           </a>
 
           {/** CAREERS */}
-          <a
-            href="/careers"
-            className="
-      group relative px-4 py-1.5 rounded-full overflow-hidden
-      border border-secondary/50 bg-secondary/20
-      text-text font-medium
-      transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]
-    "
-          >
-            <span
-              className="
-        absolute inset-0 bg-secondary
-        translate-x-[-100%]
-        group-hover:translate-x-0
-        transition-transform duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]
-      "
-            ></span>
+          <a href="/careers" className="group relative px-4 py-1.5 rounded-full overflow-hidden border border-secondary/50 bg-secondary/20 text-text font-medium transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]">
+            <span className="absolute inset-0 bg-secondary translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]"></span>
 
             <span className="relative z-10">
               Careers
