@@ -36,7 +36,7 @@ export default function BrowseCategories() {
                     {categories.map((cat) => (
                         <div
                             key={cat.id}
-                            className={`min-w-[240px] p-6 rounded-2xl bg-gradient-to-br ${cat.color}
+                            className={`min-w-60 p-6 rounded-2xl bg-linear-to-br ${cat.color}
                           border border-text/10 backdrop-blur shadow-sm
                           hover:shadow-md transition`}
                         >
