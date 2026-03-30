@@ -1,30 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/Navbar.jsx';
-import Button from './components/Button.jsx';
-import Hero from './components/Hero.jsx'
-import StorePerks from './components/StorePerks.jsx';
-import FeaturedBooks from './components/FeaturedBooks.jsx';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { CartProvider } from "./components/Cartcontext";
+import CartSidebar from "./components/Cartsidebar";
+import Checkout from "./components/Checkout";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import StorePerks from "./components/StorePerks";
+import FeaturedBooks from "./components/FeaturedBooks";
 import BrowseCategories from "./components/BrowseCategories";
-import AboutSection from './components/AboutSection.jsx';
-import Footer from './components/Footer.jsx';
+import AboutSection from "./components/AboutSection";
+import Footer from "./components/Footer";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (<div className="bg-background" >
-    {/* Start of code */}
-    <Navbar />
-    <Hero />
-    <StorePerks />
-    <FeaturedBooks />
-    <BrowseCategories />
-    <AboutSection />
-    <Footer />
-    {/* End of code */}
-  </div>)
+function HomePage() {
+  return (
+    <>
+      <Navbar />
+      <CartSidebar />
+      <Hero />
+      <StorePerks />
+      <FeaturedBooks />
+      <BrowseCategories />
+      <AboutSection />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+function App() {
+  return (
+    <BrowserRouter basename="/vite-bookstore">
+      <CartProvider>
+        <div className="bg-background">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/checkout" element={<Checkout />} />
+          </Routes>
+        </div>
+      </CartProvider>
+    </BrowserRouter>
+  );
+}
+
+export default App;
