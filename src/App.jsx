@@ -9,6 +9,7 @@ import FeaturedBooks from "./components/FeaturedBooks";
 import BrowseCategories from "./components/BrowseCategories";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
+import { ScrollToTopButton } from "./components/Button";
 import "./App.css";
 
 function HomePage() {
@@ -22,6 +23,7 @@ function HomePage() {
       <BrowseCategories />
       <AboutSection />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 }
